@@ -3,10 +3,9 @@
 #title:  "Welcome to Jekyll!"
 #date:   2024-03-19 20:09:44 +0100
 #categories: jekyll update
-<!DOCTYPE html>
-<html lang="en">
+---
 <head>
-    <meta charset="UTF-8">
+ 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Evolution of Crime Hotspots in San Francisco</title>
     <link rel="stylesheet" href="style.css"> <!-- Ensure you have a CSS file for styling -->
@@ -23,7 +22,7 @@
     <section id="visualization-1">
         <h2>Visualization 1: Crime Trends Over Time</h2>
         <p>This time-series chart illustrates the rise and fall of various types of crimes from 2010 to 2020.</p>
-        <img src="time_series_chart.png" alt="Time Series Chart of SF Crime">
+        <!--<img src="time_series_chart.png" alt="Time Series Chart of SF Crime"> -->
         <!-- Replace src with the path to your actual image file -->
     </section>
     <section id="visualization-2">
@@ -47,9 +46,7 @@
         // Here you might include any JavaScript needed to initialize or support your visualizations, especially for the Bokeh plot.
     </script>
 </body>
-</html>
 
----
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
