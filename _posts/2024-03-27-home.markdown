@@ -38,7 +38,7 @@ Our journey begins with a comprehensive time-series analysis, charting the ebb a
 
 This graph not only serves as a testament to the evolving nature of crime in response to societal and technological advancements but also sheds light on the effectiveness of law enforcement strategies and community initiatives aimed at curbing these incidents. For instance, the sharp decline in vehicle thefts post-2015 could be attributed to enhanced security measures and increased public awareness campaigns.
 </p>
-<div id="map-visualization1" class="border"><!-- Map visualization here --></div>
+<div id="map-visualization" class="border"><!-- Map visualization here --></div>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
                 </section>
                 <section id="visualization-2" class="visualization">
@@ -49,14 +49,14 @@ Areas like the Tenderloin and Mission districts consistently emerge as high-crim
 
 This spatial analysis not only aids in resource allocation and strategic planning for law enforcement but also empowers residents with valuable information on safety and security, fostering a more informed and vigilant community.
 </p>
-                    <div id="map-visualization2" class="border"><!-- Map visualization here --></div>
+                    <div id="map-visualization" class="border"><!-- Map visualization here --></div>
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
                     <p>Our final piece of the puzzle is an interactive Bokeh plot, offering users the unique ability to filter and dissect the data according to crime type, time of day, and other variables. This tool illuminates patterns that might otherwise remain obscured, such as the prevalence of thefts and break-ins during the holiday season or the spike in DUI incidents on weekends.
 
 Delving deeper, the visualization exposes the temporal dimension of crime, highlighting not just where, but when crimes are most likely to occur. This insight is crucial for both citizens planning their daily routines and policymakers aiming to deploy resources more efficiently.
-</p><div id="map-visualization3" class="border"><!-- Map visualization here --></div>
+</p><div id="map-visualization" class="border"><!-- Map visualization here --></div>
                     <div id="bokeh-plot" class="border"><!-- Bokeh plot here --></div>
                 </section>
                 <section id="conclusion">
