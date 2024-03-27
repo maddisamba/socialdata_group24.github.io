@@ -3,6 +3,52 @@
 #title:  "Welcome to Jekyll!"
 #date:   2024-03-19 20:09:44 +0100
 #categories: jekyll update
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of Crime Hotspots in San Francisco</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensure you have a CSS file for styling -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+    <!-- Add any other necessary scripts here -->
+</head>
+<body>
+    <header>
+        <h1>The Evolution of Crime Hotspots in San Francisco (2010-2020)</h1>
+    </header>
+    <section id="introduction">
+        <p>Welcome to our exploration of a decade of crime in San Francisco. Using data from the San Francisco Police Department, we've visualized the shifting landscapes of crime hotspots across the city. This story is for anyone intrigued by urban development, public safety, and the socio-economic factors influencing crime patterns.</p>
+    </section>
+    <section id="visualization-1">
+        <h2>Visualization 1: Crime Trends Over Time</h2>
+        <p>This time-series chart illustrates the rise and fall of various types of crimes from 2010 to 2020.</p>
+        <img src="time_series_chart.png" alt="Time Series Chart of SF Crime">
+        <!-- Replace src with the path to your actual image file -->
+    </section>
+    <section id="visualization-2">
+        <h2>Visualization 2: Mapping Crime Hotspots</h2>
+        <p>Our interactive map showcases how crime hotspots have migrated through San Francisco's neighborhoods over the decade.</p>
+        <div id="map-visualization">
+            <!-- You will embed your map visualization here. This might be an iframe or a div depending on your implementation -->
+        </div>
+    </section>
+    <section id="visualization-3">
+        <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
+        <p>Interact with our Bokeh plot to discover the details behind the data. Filter by crime type, time of day, and more.</p>
+        <div id="bokeh-plot">
+            <!-- Your Bokeh plot will go here. Ensure you have the corresponding script to embed the plot. -->
+        </div>
+    </section>
+    <footer>
+        <p>Project by [Your Name]. Data sourced from the San Francisco Police Department.</p>
+    </footer>
+    <script>
+        // Here you might include any JavaScript needed to initialize or support your visualizations, especially for the Bokeh plot.
+    </script>
+</body>
+</html>
+
 ---
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
