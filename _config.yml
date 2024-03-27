@@ -23,11 +23,8 @@ email: s230010@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This website helps you to understand various trends in the crimes happening in 
   San Fransisco City and we hope this data analysis does not helps you to achieve anything in your life. 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "https://maddisamba.github.io/" # the subpath of your site, e.g. /blog
-url: "https://maddisamba.github.io/socialdata_group24.github.io/" 
+#baseurl: "https://maddisamba.github.io/" # the subpath of your site, e.g. /blog
+#url: "https://maddisamba.github.io/socialdata_group24.github.io/" 
 #twitter_username: jekyllrb
 #github_username:  maddi_samba
 
