@@ -53,12 +53,13 @@ This spatial analysis not only aids in resource allocation and strategic plannin
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="100%" height="600">                           </iframe>
-                    <p>Our final piece of the puzzle is an interactive Bokeh plot, offering users the unique ability to filter and dissect the data according to crime type, time of day, and other variables. This tool illuminates patterns that might otherwise remain obscured, such as the prevalence of thefts and break-ins during the holiday season or the spike in DUI incidents on weekends.
+                    
+                    <p>The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
 
-Delving deeper, the visualization exposes the temporal dimension of crime, highlighting not just where, but when crimes are most likely to occur. This insight is crucial for both citizens planning their daily routines and policymakers aiming to deploy resources more efficiently.
-</p><div id="map-visualization" class="border"><!-- Map visualization here --></div>
-                    <div id="bokeh-plot" class="border"><!-- Bokeh plot here --></div>
+<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="100%" height="600">                           </iframe>
+
+<p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight that can be made is the contrast between Richmond and Tenderloin, where the crime rate is higher in middle of the day for Richmond, while Tenderloin has the highest crime rate at night. There seems to be a big difference between the 2 districts, which could be of a possible reasons include the behaviour of the police in each district, but it's some insight that maybe could help the 2 districts to plan how they will allocate their ressources related to prostitution crime.</p>
+
                 </section>
                 <section id="conclusion">
                 <h2>Conclusion</h2>
