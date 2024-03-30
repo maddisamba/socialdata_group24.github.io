@@ -53,6 +53,7 @@ This spatial analysis not only aids in resource allocation and strategic plannin
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="100%" height="600">                           </iframe>
                     <p>Our final piece of the puzzle is an interactive Bokeh plot, offering users the unique ability to filter and dissect the data according to crime type, time of day, and other variables. This tool illuminates patterns that might otherwise remain obscured, such as the prevalence of thefts and break-ins during the holiday season or the spike in DUI incidents on weekends.
 
 Delving deeper, the visualization exposes the temporal dimension of crime, highlighting not just where, but when crimes are most likely to occur. This insight is crucial for both citizens planning their daily routines and policymakers aiming to deploy resources more efficiently.
