@@ -28,7 +28,7 @@
             <div class="col-md-12">
                 <section id="introduction">
                     <p>
-In the heart of Northern California lies San Francisco, a city celebrated for its iconic Golden Gate Bridge, vibrant tech scene, and diverse cultural tapestry. However, like any major urban center, it is not without its challenges, with crime being a significant concern for residents and policymakers alike. Leveraging data from the San Francisco Police Department, this article delves into the changing landscape of crime in the city over a decade, offering insights into patterns, shifts in crime hotspots, and the underlying factors driving these changes.
+This site will delve into San Francisco, concentrating on crime data from 2003 to 2017. We'll narrow our exploration to prostitution in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or other observations that could be relevant or interesting.
 </p>
                 </section>
                 <section id="visualization-1" class="visualization">
