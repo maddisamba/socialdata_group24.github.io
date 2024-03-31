@@ -36,7 +36,7 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
                     <p>Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. As we can see, the Tenderloin and Northern neighborhoods are the next in order after the Mission area, as a result of the police department's crackdown on prostitutes.
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="600px" height="330px"></iframe>
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="800px" height="600px"></iframe>
                     
                 </section>
                 <section id="visualization-2" class="visualization">
