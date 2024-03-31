@@ -33,10 +33,7 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
                 </section>
                 <section id="visualization-1" class="visualization">
                     <h2>Prostitution Crime Trends Over Each District</h2>
-                    <p>
-Our journey begins with a comprehensive time-series analysis, charting the ebb and flow of various crime categories from 2010 to 2020. The visualization presents a clear narrative of the city's battle with crime, highlighting significant trends such as the gradual decrease in property crimes like burglary and larceny, juxtaposed against a concerning rise in cyber-related offenses, reflecting the city's tech-centric identity.
-
-This graph not only serves as a testament to the evolving nature of crime in response to societal and technological advancements but also sheds light on the effectiveness of law enforcement strategies and community initiatives aimed at curbing these incidents. For instance, the sharp decline in vehicle thefts post-2015 could be attributed to enhanced security measures and increased public awareness campaigns.
+                    <p>Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. As we can see, the Tenderloin and Northern neighborhoods are the next in order after the Mission area, as a result of the police department's crackdown on prostitutes.
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
                     <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/DistrictWiseTrends.html" frameborder="0" width="600px" height="330px">                     </iframe>
@@ -74,7 +71,6 @@ This graph not only serves as a testament to the evolving nature of crime in res
 
 <p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight that can be made is the contrast between Richmond and Tenderloin, where the crime rate is higher in middle of the day for Richmond, while Tenderloin has the highest crime rate at night. There seems to be a big difference between the 2 districts, which could be of a possible reasons include the behaviour of the police in each district, but it's some insight that maybe could help the 2 districts to plan how they will allocate their ressources related to prostitution crime.</p>
 </section>
-
                 <section id="conclusion">
                 <h2>Conclusion</h2>
                 <p>The analysis of San Francisco's crime data from 2010 to 2020 paints a complex picture of a city in flux, wrestling with the dual forces of innovation and inequality. While certain types of crime have seen a decline thanks to concerted efforts by the community and law enforcement, others have emerged or persisted, adapting to the changing urban landscape.
