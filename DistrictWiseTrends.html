@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "My First Chart in CanvasJS"              
+		},
+		data: [              
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "column",
+			dataPoints: [{ label: "BAYVIEW",  y: 90  },
+				{ label: "CENTRAL", y: 1095 , color:'orange' },
+				{ label: "INGLESIDE", y: 37 ,color:'green' },
+				{ label: "MISSION",  y: 5080 ,color:'red' },
+				{ label: "NORTHERN",  y: 2819  },
+				{ label: "PARK", y: 9  },
+				{ label: "RICHMOND",  y: 34 ,color:'brown' },
+				{ label: "SOUTHERN",  y: 174 ,color:'pink' },
+				{ label: "TARAVAL",  y: 114 ,color:'grey' },
+				{ label: "TENDERLOIN",  y: 1471 , color:'goldenrod'  },
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; max-width: 920px; margin: 0px auto;"></div>
+</body>
+</html>
