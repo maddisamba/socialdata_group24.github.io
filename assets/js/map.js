@@ -6,7 +6,9 @@ function loadSelectedMap() {
     mapContainer.innerHTML = "";
 
     var iframe = document.createElement("iframe");
-    iframe.src = selectedMap + ".html";
+    var pathString = selectedMap + ".html";
+    console.log(pathString)
+    iframe.src = pathString;
     console.log(iframe.src)
     iframe.style.width = "100%";
     iframe.style.height = "500px";
