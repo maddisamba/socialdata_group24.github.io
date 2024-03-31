@@ -6,7 +6,7 @@ function loadSelectedMap() {
     mapContainer.innerHTML = "";
 
     var iframe = document.createElement("iframe");
-    iframe.src = "assets/plots/maps/" + selectedMap + ".html";
+    iframe.src = "https://maddisamba.github.io/socialdata_group24.github.io/assets/plots/maps/" + selectedMap + ".html";
     console.log(iframe.src)
     iframe.style.width = "100%";
     iframe.style.height = "500px";
