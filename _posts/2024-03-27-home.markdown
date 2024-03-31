@@ -32,7 +32,7 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
 </p>
                 </section>
                 <section id="visualization-1" class="visualization">
-                    <h2>Crime Trends Over Time</h2>
+                    <h2>Prostitution Crime Trends Over Each District</h2>
                     <p>
 Our journey begins with a comprehensive time-series analysis, charting the ebb and flow of various crime categories from 2010 to 2020. The visualization presents a clear narrative of the city's battle with crime, highlighting significant trends such as the gradual decrease in property crimes like burglary and larceny, juxtaposed against a concerning rise in cyber-related offenses, reflecting the city's tech-centric identity.
 
