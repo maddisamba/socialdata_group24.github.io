@@ -49,7 +49,9 @@ Areas like the Tenderloin and Mission districts consistently emerge as high-crim
 
 This spatial analysis not only aids in resource allocation and strategic planning for law enforcement but also empowers residents with valuable information on safety and security, fostering a more informed and vigilant community.
 </p>
-                    <div id="map-visualization" class="border"><!-- Map visualization here --></div>
+                    <div id="map-visualization" class="border">
+                        <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_incidents_map.html" frameborder="0" width="100%" height="500"></iframe>
+                    </div>
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
