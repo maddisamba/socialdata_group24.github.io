@@ -41,7 +41,7 @@ This graph not only serves as a testament to the evolving nature of crime in res
 
 <div id="map-visualization" class="border"><!-- Map visualization here -->
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/DistrictWiseTrends.html" frameborder="0" width="700px" height="700px">                     </iframe></div>
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/DistrictWiseTrends.html" frameborder="0" width="600px" height="700px">                     </iframe></div>
                 </section>
                 <section id="visualization-2" class="visualization">
                     <h2>Mapping Crime Hotspots</h2>
