@@ -7,6 +7,7 @@ function loadSelectedMap() {
 
     var iframe = document.createElement("iframe");
     iframe.src = "assets/plots/maps/" + selectedMap + ".html";
+    console.log(iframe.src)
     iframe.style.width = "100%";
     iframe.style.height = "500px";
     mapContainer.appendChild(iframe);
