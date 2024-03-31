@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("map-selection").addEventListener("change", loadSelectedMap);
     loadSelectedMap();
 });
 
