@@ -38,10 +38,8 @@ Our journey begins with a comprehensive time-series analysis, charting the ebb a
 
 This graph not only serves as a testament to the evolving nature of crime in response to societal and technological advancements but also sheds light on the effectiveness of law enforcement strategies and community initiatives aimed at curbing these incidents. For instance, the sharp decline in vehicle thefts post-2015 could be attributed to enhanced security measures and increased public awareness campaigns.
 </p>
-
-<div id="map-visualization" class="border"><!-- Map visualization here -->
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/DistrictWiseTrends.html" frameborder="0" width="600px" height="700px">                     </iframe></div>
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/DistrictWiseTrends.html" frameborder="0" width="600px" height="700px">                     </iframe>
                 </section>
                 <section id="visualization-2" class="visualization">
                     <h2>Mapping Crime Hotspots</h2>
