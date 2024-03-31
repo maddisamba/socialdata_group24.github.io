@@ -49,26 +49,24 @@ Areas like the Tenderloin and Mission districts consistently emerge as high-crim
 
 This spatial analysis not only aids in resource allocation and strategic planning for law enforcement but also empowers residents with valuable information on safety and security, fostering a more informed and vigilant community.
 </p>
-                    <div id="map-visualization" class="border">
-                        <label for="map-selection">Select a map:</label>
-                        <select id="map-selection" onchange="loadSelectedMap()">
-                            <option value="assault_map">Assault Map</option>
-                            <option value="burglary_map">Burglary Map</option>
-                            <option value="disorderly_conduct_map">Disorderly Conduct Map</option>
-                            <option value="driving_under_the_influence_map">Driving Under the Influence Map</option>
-                            <option value="drug_narcotic_map">Drug/Narcotic Map</option>
-                            <option value="drunkeness_map">Drunkeness Map</option>
-                            <option value="larceny_theft_map">Larceny/Theft Map</option>
-                            <option value="prostitution_map">Prostitution Map</option>
-                            <option value="robbery_map">Robbery Map</option>
-                            <option value="stolen_property_map">Stolen Property Map</option>
-                            <option value="trespass_map">Trespass Map</option>
-                            <option value="vandalism_map">Vandalism Map</option>
-                            <option value="vehicle_theft_map">Vehicle Theft Map</option>
-                            <option value="weapon_laws_map">Weapon Laws Map</option>
-                        </select>
-                        <div id="map-container"></div>
-                    </div>
+                    <label for="map-selection">Select a map:</label>
+                    <select id="map-selection" onchange="loadSelectedMap()">
+                        <option value="assault_map">Assault Map</option>
+                        <option value="burglary_map">Burglary Map</option>
+                        <option value="disorderly_conduct_map">Disorderly Conduct Map</option>
+                        <option value="driving_under_the_influence_map">Driving Under the Influence Map</option>
+                        <option value="drug_narcotic_map">Drug/Narcotic Map</option>
+                        <option value="drunkeness_map">Drunkeness Map</option>
+                        <option value="larceny_theft_map">Larceny/Theft Map</option>
+                        <option value="prostitution_map">Prostitution Map</option>
+                        <option value="robbery_map">Robbery Map</option>
+                        <option value="stolen_property_map">Stolen Property Map</option>
+                        <option value="trespass_map">Trespass Map</option>
+                        <option value="vandalism_map">Vandalism Map</option>
+                        <option value="vehicle_theft_map">Vehicle Theft Map</option>
+                        <option value="weapon_laws_map">Weapon Laws Map</option>
+                    </select>
+                    <div id="map-container" style="width:700px; height:500px"></div>
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Visualization 3: Dive Deeper with Interactive Data</h2>
