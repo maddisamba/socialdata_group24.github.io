@@ -6,7 +6,7 @@ function loadSelectedMap() {
     mapContainer.innerHTML = "";
 
     var iframe = document.createElement("iframe");
-    var pathString = selectedMap + ".html";
+    var pathString = "https://maddisamba.github.io/socialdata_group24.github.io/assets/plots/maps/" + selectedMap + ".html";
     console.log(pathString)
     iframe.src = pathString;
     console.log(iframe.src)
