@@ -28,7 +28,7 @@
             <div class="col-md-12">
                 <section id="introduction">
                     <p>
-This site will delve into San Francisco, concentrating on crime data from 2003 to 2017. We'll narrow our exploration to prostitution in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or other observations that could be relevant or interesting. For our analysis we will provide three different types of visualizations. The first one is a time series of prostituion crimes along the years by district, the second is a map displaying the occurences of prostituion and other focus crimes by district for comparinson and the third is a interactive analysis of the crime data per hour per district.
+This site will focus on crime data from 2003 to 2017 for San Francisco. We'll narrow our analysis to prostitution crime in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or ability to make observations that could be relevant or interesting. For our analysis we will provide three different types of visualizations. The first one is a time series of prostituion crimes along the years by district, the second is a map displaying the occurences of prostituion and other focus crimes by district for comparinson and the third is a interactive analysis of the crime data per hour per district.
 </p>
                 </section>
                 <section id="visualization-1" class="visualization">
