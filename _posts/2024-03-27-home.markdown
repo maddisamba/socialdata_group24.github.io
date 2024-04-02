@@ -11,7 +11,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .header { background: #007bff; color: white; padding: 10px; font-size: 1.5rem; text-align: center; }
-        .content-container, .content-container * {margin: 0; padding: 0;}
     </style>
 </head>
 <body>
@@ -68,11 +67,11 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
 
 <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="935px" height="450"></iframe>
 <h6 style="text-align:center">Figure 3. Percentage of Prostitution Incidents by Hour and District</h6>
-<p style="text-align:justify;width:635px">Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. These differences could happen for a multiple reasons including the behaviour of the police in each district, but it's some insight that maybe could help the districts to plan how they will allocate their ressources related to prostitution crime, since it might be a bigger focus for Tenderloin at the evening, while the other 3 districts maybe need to focus more on prostitution crime at night.</p>
+<p style="text-align:justify;width:935px">Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. These differences could happen for a multiple reasons including the behaviour of the police in each district, but it's some insight that maybe could help the districts to plan how they will allocate their ressources related to prostitution crime, since it might be a bigger focus for Tenderloin at the evening, while the other 3 districts maybe need to focus more on prostitution crime at night.</p>
 </section>
                 <section id="conclusion">
                 <h2>Conclusion</h2>
-                <p style="text-align:justify;width:935px">In our analysis of San Francisco's prostitution crimes from 2003 to 2017, we uncovered distinct patterns, including a high frequency of incidents in the Mission and Northern districts and a citywide decrease in cases over time. Our visualizations revealed the effectiveness of policing and government efforts in reducing prostitution crimes. The maps showed how there could be some interaction between the different crimes, while the interactive data highlighted how crime rates vary by district and time, giving insight into how law enforcement could make strategies for enhancing safety.
+                <p style="text-align:justify;width:935px;padding:10px">In our analysis of San Francisco's prostitution crimes from 2003 to 2017, we uncovered distinct patterns, including a high frequency of incidents in the Mission and Northern districts and a citywide decrease in cases over time. Our visualizations revealed the effectiveness of policing and government efforts in reducing prostitution crimes. The maps showed how there could be some interaction between the different crimes, while the interactive data highlighted how crime rates vary by district and time, giving insight into how law enforcement could make strategies for enhancing safety.
 </p>
 </section>
 <section id="conclusion">
