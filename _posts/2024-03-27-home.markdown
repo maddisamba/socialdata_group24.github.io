@@ -10,11 +10,6 @@
     <title>The Evolution of Crime Hotspots in San Francisco</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { padding-top: 5rem; }
-        .header { background: #007bff; color: white; padding: 20px; font-size: 1.5rem; text-align: center; }
-        .visualization { margin-bottom: 2rem; }
-        .footer { background: #f8f9fa; color: #6c757d; padding: 20px; text-align: center; }
-        .bokeh-plot, #map-visualization { height: 400px; /* Adjust as necessary */ }
     </style>
 </head>
 <body>
