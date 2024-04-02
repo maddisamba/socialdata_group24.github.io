@@ -9,11 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Evolution of Crime Hotspots in San Francisco</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .body { padding: 20px; }
+    </style>
 </head>
 <body>
     <div class="header">
         <div class="container">
-            <h1 style="width:935px;background-color:blue;color:white;font-size:20px">Prostitution crime Trends in San Francisco (2003-2017)</h1>
+            <h1 style="width:935px;background-color:blue;color:white;font-size:40px">Prostitution crime Trends in San Francisco (2003-2017)</h1>
         </div>
     </div>
     <div class="container">
