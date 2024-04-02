@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: San Fransisco Crime Data 
-email: s230010@dtu.dk
+#email: s230010@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This website helps you to understand various trends in the crimes happening in 
-  San Fransisco City and we hope this data analysis does not helps you to achieve anything in your life. 
+  San Fransisco City.
 #baseurl: "https://maddisamba.github.io/" # the subpath of your site, e.g. /blog
 #url: "https://maddisamba.github.io/socialdata_group24.github.io/" 
 #twitter_username: jekyllrb

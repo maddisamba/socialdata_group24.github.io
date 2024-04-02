@@ -36,8 +36,7 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
                     <p>Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco from 2003 to 2017. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. After the police department's crackdown on prostitution in the Mission area, the Tenderloin and Northern neighborhoods have become the subsequent locations where prostitutes have relocated. The cases has been decreasing from 2009 and reported very low in 2017 across the SanFrancisco due to various actions taken by <a href="https://nij.ojp.gov/topics/articles/reducing-demand-prostitution-san-francisco-john-school-program"> Police Department and government</a>.
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="800px" height="600px"></iframe>
-                    
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="635px" height="600px"></iframe>
                 </section>
                 <section id="visualization-2" class="visualization">
                     <h2>Mapping Crime Hotspots</h2>
@@ -59,17 +58,14 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
                         <option value="vehicle_theft_map">Vehicle Theft Map</option>
                         <option value="weapon_laws_map">Weapon Laws Map</option>
                     </select>
-                    <div id="map-container" style="width:800px; height:550px"></div>
+                    <!--<div id="map-container" style="width:800px; height:550px"></div>-->
                     <br><p>The maps we've generated reveal a dynamic landscape where crime concentrations evolve in response to various factors such as urban development, shifts in socio-economic status, and the implementation of targeted policing strategies.<br><br>Notably, areas like the Tenderloin and Mission districts consistently emerge as high-crime zones, while neighborhoods such as Sunset and Richmond exhibit relatively lower crime rates, underscoring disparities in safety and quality of life within the city.<br><br>This spatial analysis not only aids law enforcement in resource allocation and strategic planning but also empowers residents with valuable insights into safety and security, fostering a more informed and vigilant community.
                     </p>
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Dive Deeper with Interactive Data</h2>
-                    
                     <p>The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
-
-<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="200%" height="450">                     </iframe>
-
+<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="635px"height="450"></iframe>
 <p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight that can be made is the contrast between Richmond and Tenderloin, where the crime rate is higher in middle of the day for Richmond, while Tenderloin has the highest crime rate at night. There seems to be a big difference between the 2 districts, which could be of a possible reasons include the behaviour of the police in each district, but it's some insight that maybe could help the 2 districts to plan how they will allocate their ressources related to prostitution crime.</p>
 </section>
                 <section id="conclusion">
@@ -84,8 +80,8 @@ By leveraging data-driven insights such as those presented in our visualizations
 <section id="conclusion">
                 <h2>Contributions</h2>
     <p>
-                Visualization 1 - Maddi, Sai Venkata Samba Siva Rao
-                Visualization 2 - Ribeirete, Victor Nielsen
+                Visualization 1 - Maddi, Sai Venkata Samba Siva Rao - s230010
+                Visualization 2 - Ribeirete, Victor Nielsen - s240210
                 Visualization 3 - Nielsen, Christopher Hardi - s194638
                 </p>
 
