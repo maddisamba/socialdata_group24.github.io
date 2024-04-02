@@ -11,6 +11,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .header { background: #007bff; color: white; padding: 20px; font-size: 1.5rem; text-align: center; }
+        .body {padding-left: 0px;}
     </style>
 </head>
 <body>
