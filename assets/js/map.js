@@ -16,6 +16,6 @@ function loadSelectedMap() {
     var pathString = "https://maddisamba.github.io/socialdata_group24.github.io/assets/plots/maps/" + selectedMap + ".html";
     iframe.src = pathString;
     iframe.style.width = "100%";
-    iframe.style.height = "550px";
+    iframe.style.height = "570px";
     mapContainer.appendChild(iframe);
 }
