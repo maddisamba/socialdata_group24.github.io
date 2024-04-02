@@ -28,7 +28,7 @@
             <div class="col-md-12">
                 <section id="introduction">
                     <p>
-This site will delve into San Francisco, concentrating on crime data from 2003 to 2017. We'll narrow our exploration to prostitution in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or other observations that could be relevant or interesting. For our analysis we will provide three different types of visualizations. The first one is a time series of prostituion crimes along the years by district, the second is a map displaying the occurences of prostituion and other focus crimes by district for comparinson and the third is a interactive analysis of the crime data per hour per district.
+This site will focus on crime data from 2003 to 2017 for San Francisco. We'll narrow our analysis to prostitution crime in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or ability to make observations that could be relevant or interesting. For our analysis we will provide three different types of visualizations. The first one is a time series of prostituion crimes along the years by district, the second is a map displaying the occurences of prostituion and other focus crimes by district for comparinson and the third is a interactive analysis of the crime data per hour per district.
 </p>
                 </section>
                 <section id="visualization-1" class="visualization">
@@ -65,25 +65,23 @@ This site will delve into San Francisco, concentrating on crime data from 2003 t
                 <section id="visualization-3" class="visualization">
                     <h2>Dive Deeper with Interactive Data</h2>
                     <p>The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
-<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="635px"height="450"></iframe>
-<p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight that can be made is the contrast between Richmond and Tenderloin, where the crime rate is higher in middle of the day for Richmond, while Tenderloin has the highest crime rate at night. There seems to be a big difference between the 2 districts, which could be of a possible reasons include the behaviour of the police in each district, but it's some insight that maybe could help the 2 districts to plan how they will allocate their ressources related to prostitution crime.</p>
+
+<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="200%" height="450">                     </iframe>
+
+<p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. These differences could happen for a multiple reasons including the behaviour of the police in each district, but it's some insight that maybe could help the districts to plan how they will allocate their ressources related to prostitution crime, since it might be a bigger focus for Tenderloin at the evening, while the other 3 districts maybe need to focus more on prostitution crime at night.</p>
 </section>
                 <section id="conclusion">
                 <h2>Conclusion</h2>
-                <p>The analysis of San Francisco's crime data from 2010 to 2020 paints a complex picture of a city in flux, wrestling with the dual forces of innovation and inequality. While certain types of crime have seen a decline thanks to concerted efforts by the community and law enforcement, others have emerged or persisted, adapting to the changing urban landscape.
-
-The shifting hotspots of crime across the city underscore the need for a dynamic and responsive approach to public safety, one that harnesses technology, data, and community engagement in equal measure. As San Francisco continues to evolve, so too must our strategies for safeguarding its residents and ensuring that the city remains a beacon of culture, innovation, and inclusivity on the West Coast.
-
-By leveraging data-driven insights such as those presented in our visualizations, we can begin to untangle the complex web of factors influencing crime trends and work towards a safer, more secure San Francisco for all.
+                <p>In our analysis of San Francisco's prostitution crimes from 2003 to 2017, we uncovered distinct patterns, including a high frequency of incidents in the Mission and Northern districts and a citywide decrease in cases over time. Our visualizations revealed the effectiveness of policing and government efforts in reducing prostitution crimes. The maps showed how there could be some interaction between the different crimes, while the interactive data highlighted how crime rates vary by district and time, giving insight into how law enforcement could make strategies for enhancing safety.
 </p>
 </section>
 <section id="conclusion">
                 <h2>Contributions</h2>
-    <p>
-                Visualization 1 - Maddi, Sai Venkata Samba Siva Rao - s230010
-                Visualization 2 - Ribeirete, Victor Nielsen - s240210
-                Visualization 3 - Nielsen, Christopher Hardi - s194638
-                </p>
+    <ul>
+  <li>Visualization 1 - Maddi, Sai Venkata Samba Siva Rao</li>
+  <li>Visualization 2 - Ribeirete, Victor Nielsen</li>
+  <li>Visualization 3 - Nielsen, Christopher Hardi - s194638</li>
+</ul>
 
 </section>
             </div>
