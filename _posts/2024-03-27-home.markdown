@@ -89,7 +89,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
     </div>
     <div class="footer">
         <div class="container">
-            <p>Project by Group24. Data sourced from the San Francisco Police Department.</p>
+            <p>Project by Group34. Data sourced from the San Francisco Police Department.</p>
         </div>
     </div>
     <script src="https://maddisamba.github.io/socialdata_group24.github.io/assets/js/map.js"></script>
