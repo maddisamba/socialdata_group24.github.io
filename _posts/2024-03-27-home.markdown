@@ -11,12 +11,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
     .wrapper {
-    max-width: -webkit-calc(800px -(30px* 2));
-    max-width: calc(1000px -(30px* 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px;
+    max-width: 1000px;
 }
     </style>
 </head>
@@ -39,7 +34,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
                     <p style="text-align:justify;width:100%">Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco from 2003 to 2017. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. After the police department's crackdown on prostitution in the Mission area, the Tenderloin and Northern neighborhoods have become the subsequent locations where prostitutes have relocated. The cases has been decreasing from 2009 and reported very low in 2017 across the SanFrancisco due to various actions taken by <a href="https://nij.ojp.gov/topics/articles/reducing-demand-prostitution-san-francisco-john-school-program"> Police Department and government</a>.
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
-                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="935px" height="600px"></iframe>
+                    <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="100%" height="600px"></iframe>
                         <h6 style="text-align:center">Figure 1. Prostitution Crime Counts by District and Year</h6>
                 </section>
                 <section id="visualization-2" class="visualization">
@@ -71,7 +66,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
                     <h2>Dive Deeper with Interactive Data</h2>
                     <p style="text-align:justify;width:100%">The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
 
-<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="935px" height="450"></iframe>
+<iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="100%" height="450"></iframe>
 <h6 style="text-align:center">Figure 3. Percentage of Prostitution Incidents by Hour and District</h6>
 <p style="text-align:justify;width:100%">Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. This could be attributed to Tenderloin being the <a href="https://abc7news.com/tenderloin-san-francisco-history-crime/11574311/">original place in San Francisco</a> for sexworkers and in general crime, so the area differ from the rest of San Francisco in its long history of crime. It can also be noted that today it's the district with highest number of narcotics as Narcotics map under visualization 2 shows, which could indicate that the clientel is different in Tenderloin since there are probably more drug users in the area, while homelessness also is a problem in the area, all information that could point to why the crime rate differ in time in Tenderloin from the other districts.</p>
 </section>
