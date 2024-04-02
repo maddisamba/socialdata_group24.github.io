@@ -37,6 +37,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
                     <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="635px" height="600px"></iframe>
+                        <h6 style="text-align:center">Figure 1. Prostitution Crime Counts by District and Year</h6>
                 </section>
                 <section id="visualization-2" class="visualization">
                     <h2>Mapping Crime Hotspots</h2>
