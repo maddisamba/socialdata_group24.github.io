@@ -85,7 +85,6 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
             </div>
         </div>
     </div>
-    </div>
     <div class="footer">
         <div class="container">
             <p>Project by Group24. Data sourced from the San Francisco Police Department.</p>
