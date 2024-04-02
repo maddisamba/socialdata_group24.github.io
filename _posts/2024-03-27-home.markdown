@@ -13,7 +13,7 @@
 <body>
     <div class="header">
         <div class="container">
-            <h1 style="width:935px;background-color:blue;font-color:white;font-size:20">Prostitution crime Trends in San Francisco (2003-2017)</h1>
+            <h1 style="width:935px;background-color:blue;color:white;font-size:20px">Prostitution crime Trends in San Francisco (2003-2017)</h1>
         </div>
     </div>
     <div class="container">
