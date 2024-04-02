@@ -10,30 +10,26 @@
     <title>The Evolution of Crime Hotspots in San Francisco</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { padding-top: 5rem; }
         .header { background: #007bff; color: white; padding: 20px; font-size: 1.5rem; text-align: center; }
-        .visualization { margin-bottom: 2rem; }
-        .footer { background: #f8f9fa; color: #6c757d; padding: 20px; text-align: center; }
-        .bokeh-plot, #map-visualization { height: 400px; /* Adjust as necessary */ }
     </style>
 </head>
 <body>
     <div class="header">
         <div class="container">
-            <h1>Prostitution crime in San Francisco (2003-2017)</h1>
+            <h1>Prostitution crime Trends in San Francisco (2003-2017)</h1>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <section id="introduction">
-                    <p>
+                    <p style="text-align:justify;width:635px">
 This site will focus on crime data from 2003 to 2017 for San Francisco. We'll narrow our analysis to prostitution crime in the city to gain a clearer view of crime in San Francisco and uncover some insights in patterns or ability to make observations that could be relevant or interesting. For our analysis we will provide three different types of visualizations. The first one is a time series of prostituion crimes along the years by district, the second is a map displaying the occurences of prostituion and other focus crimes by district for comparinson and the third is a interactive analysis of the crime data per hour per district.
 </p>
                 </section>
                 <section id="visualization-1" class="visualization">
                     <h2>Prostitution Crime Trends Over Each District</h2>
-                    <p>Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco from 2003 to 2017. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. After the police department's crackdown on prostitution in the Mission area, the Tenderloin and Northern neighborhoods have become the subsequent locations where prostitutes have relocated. The cases has been decreasing from 2009 and reported very low in 2017 across the SanFrancisco due to various actions taken by <a href="https://nij.ojp.gov/topics/articles/reducing-demand-prostitution-san-francisco-john-school-program"> Police Department and government</a>.
+                    <p style="text-align:justify;width:635px">Our First visualization explores into the number of prostitution crime incidents reported at each district of SanFrancisco from 2003 to 2017. While Mission is said to have the highest number of instances in San Francisco, Bayview, Ingleside, Park, Richmond, Southern, and Taraval districts have very few prostitution cases. As per the <a href="https://www.sfgate.com/local/article/san-francisco-sex-workers-mission-17777619.php">San Francisco Police Department</a>, the Mission district's Capp Street is well-known for its prostitution, and there has been a notable surge in the sex trafficking of women, leading to a high volume of prostitution charges. After the police department's crackdown on prostitution in the Mission area, the Tenderloin and Northern neighborhoods have become the subsequent locations where prostitutes have relocated. The cases has been decreasing from 2009 and reported very low in 2017 across the SanFrancisco due to various actions taken by <a href="https://nij.ojp.gov/topics/articles/reducing-demand-prostitution-san-francisco-john-school-program"> Police Department and government</a>.
 </p>
                     <!--<img src="time_series_chart.png" class="img-fluid" alt="Time Series Chart of SF Crime">-->
                     <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/crime_counts_by_district_and_year.html" frameborder="0" width="635px" height="600px"></iframe>
@@ -41,7 +37,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
                 </section>
                 <section id="visualization-2" class="visualization">
                     <h2>Mapping Crime Hotspots</h2>
-                    <p>Our second visualization delves into the geographical dimension of crime in San Francisco, focusing on identifying crime hotspots across the city's neighborhoods over the years. While our primary focus was on understanding the prevalence of prostitution, we also included other types of crimes to uncover potential correlations with prostitution occurrences in areas with high crime rates. It's important to note that the data analyzed extends until May 2018, allowing for a more comprehensive understanding of crime distribution within the city.<br><br>Upon closer examination, it becomes evident that the majority of prostitution-related crimes are concentrated in the Mission district, with a significant number also occurring in the Northern district. Interestingly, similar patterns emerge when analyzing other types of crimes, particularly Disorderly Conduct and Driving Under the Influence, suggesting possible interconnectedness between these offenses.</p>
+                    <p style="text-align:justify;width:635px">Our second visualization delves into the geographical dimension of crime in San Francisco, focusing on identifying crime hotspots across the city's neighborhoods over the years. While our primary focus was on understanding the prevalence of prostitution, we also included other types of crimes to uncover potential correlations with prostitution occurrences in areas with high crime rates. It's important to note that the data analyzed extends until May 2018, allowing for a more comprehensive understanding of crime distribution within the city.<br><br>Upon closer examination, it becomes evident that the majority of prostitution-related crimes are concentrated in the Mission district, with a significant number also occurring in the Northern district. Interestingly, similar patterns emerge when analyzing other types of crimes, particularly Disorderly Conduct and Driving Under the Influence, suggesting possible interconnectedness between these offenses.</p>
                     <label for="map-selection">Select a map:</label>
                     <select id="map-selection">
                         <option value="prostitution_map">Prostitution Map</option>
@@ -60,20 +56,21 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
                         <option value="weapon_laws_map">Weapon Laws Map</option>
                     </select>
                     <div id="map-container" style="width:635px; height:550px"></div>
-                    <br><p>The maps we've generated reveal a dynamic landscape where crime concentrations evolve in response to various factors such as urban development, shifts in socio-economic status, and the implementation of targeted policing strategies.<br><br>Notably, areas like the Tenderloin and Mission districts consistently emerge as high-crime zones, while neighborhoods such as Sunset and Richmond exhibit relatively lower crime rates, underscoring disparities in safety and quality of life within the city.<br><br>This spatial analysis not only aids law enforcement in resource allocation and strategic planning but also empowers residents with valuable insights into safety and security, fostering a more informed and vigilant community.
+                    <h6 style="text-align:center">Figure 2. Crime Counts by District Map</h6>
+                    <br><p style="text-align:justify;width:635px">The maps we've generated reveal a dynamic landscape where crime concentrations evolve in response to various factors such as urban development, shifts in socio-economic status, and the implementation of targeted policing strategies.<br><br>Notably, areas like the Tenderloin and Mission districts consistently emerge as high-crime zones, while neighborhoods such as Sunset and Richmond exhibit relatively lower crime rates, underscoring disparities in safety and quality of life within the city.<br><br>This spatial analysis not only aids law enforcement in resource allocation and strategic planning but also empowers residents with valuable insights into safety and security, fostering a more informed and vigilant community.
                     </p>
                 </section>
                 <section id="visualization-3" class="visualization">
                     <h2>Dive Deeper with Interactive Data</h2>
-                    <p>The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
+                    <p style="text-align:justify;width:635px">The final visualization on this site is an interactive plot of the distribution of prostitution pr. hour for each police district. This plot makes it possible to compare the districts and the occurance of prostitution crime in the different districts. This can be overwhelming to look at all districts at the same time, which is why it make sense to have an interactive filter, that makes it possible to only compare a few districts at a time.</p>
 
 <iframe src="https://maddisamba.github.io/socialdata_group24.github.io/prostitution_incidents_by_district.html" frameborder="0" width="635px" height="450"></iframe>
 <h6 style="text-align:center">Figure 3. Percentage of Prostitution Incidents by Hour and District</h6>
-<p>Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. These differences could happen for a multiple reasons including the behaviour of the police in each district, but it's some insight that maybe could help the districts to plan how they will allocate their ressources related to prostitution crime, since it might be a bigger focus for Tenderloin at the evening, while the other 3 districts maybe need to focus more on prostitution crime at night.</p>
+<p style="text-align:justify;width:635px">Multiple insights for each district can be made based on this plot, both by looking at one district and comparing them. One big insight is the contrast between the 4 districts with most prostitution such as Central, Mission, Northern and Tenderloin, where the crime rate slightly differ in their patterns. It's especially Tenderloin that has a different pattern to the other 3 districts since it has most of the crime at the evening, while other 3 districs has the highest crime rate after midnight. These differences could happen for a multiple reasons including the behaviour of the police in each district, but it's some insight that maybe could help the districts to plan how they will allocate their ressources related to prostitution crime, since it might be a bigger focus for Tenderloin at the evening, while the other 3 districts maybe need to focus more on prostitution crime at night.</p>
 </section>
                 <section id="conclusion">
                 <h2>Conclusion</h2>
-                <p>In our analysis of San Francisco's prostitution crimes from 2003 to 2017, we uncovered distinct patterns, including a high frequency of incidents in the Mission and Northern districts and a citywide decrease in cases over time. Our visualizations revealed the effectiveness of policing and government efforts in reducing prostitution crimes. The maps showed how there could be some interaction between the different crimes, while the interactive data highlighted how crime rates vary by district and time, giving insight into how law enforcement could make strategies for enhancing safety.
+                <p style="text-align:justify;width:635px">In our analysis of San Francisco's prostitution crimes from 2003 to 2017, we uncovered distinct patterns, including a high frequency of incidents in the Mission and Northern districts and a citywide decrease in cases over time. Our visualizations revealed the effectiveness of policing and government efforts in reducing prostitution crimes. The maps showed how there could be some interaction between the different crimes, while the interactive data highlighted how crime rates vary by district and time, giving insight into how law enforcement could make strategies for enhancing safety.
 </p>
 </section>
 <section id="conclusion">
