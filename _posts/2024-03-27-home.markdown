@@ -57,7 +57,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
                         <option value="vehicle_theft_map">Vehicle Theft Map</option>
                         <option value="weapon_laws_map">Weapon Laws Map</option>
                     </select>
-                    <div id="map-container" style="width:100%; height:600px"></div>
+                    <div id="map-container" style="width:100%; height:620px"></div>
                     <h6 style="text-align:center">Figure 2. Crime Counts by District Map</h6>
                     <br><p style="text-align:justify;width:100%">The maps we've generated reveal a dynamic landscape where crime concentrations evolve in response to various factors such as urban development, shifts in socio-economic status, and the implementation of targeted policing strategies.<br><br>Notably, areas like the Tenderloin and Mission districts consistently emerge as high-crime zones, while neighborhoods such as Sunset and Richmond exhibit relatively lower crime rates, underscoring disparities in safety and quality of life within the city.<br><br>This spatial analysis not only aids law enforcement in resource allocation and strategic planning but also empowers residents with valuable insights into safety and security, fostering a more informed and vigilant community.
                     </p>
