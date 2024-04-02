@@ -10,8 +10,8 @@
     <title>The Evolution of Crime Hotspots in San Francisco</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .header { background: #007bff; color: white; padding: 20px; font-size: 1.5rem; text-align: center; }
-        .body {padding: 0; margin: 0;}
+        .header { background: #007bff; color: white; padding: 10px; font-size: 1.5rem; text-align: center; }
+        .content-container, .content-container * {margin: 0; padding: 0;}
     </style>
 </head>
 <body>
@@ -20,6 +20,7 @@
             <h1>Prostitution crime Trends in San Francisco (2003-2017)</h1>
         </div>
     </div>
+    <div class="content-container">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -85,6 +86,7 @@ This site will focus on crime data from 2003 to 2017 for San Francisco. We'll na
 </section>
             </div>
         </div>
+    </div>
     </div>
     <div class="footer">
         <div class="container">
